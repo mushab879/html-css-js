@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Button Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: #f4f4f9;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    p {
+      font-size: 22px;
+      margin-top: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple HTML + CSS + JS Example 🚀</h1>
+  <button onclick="changeText()">Click Me</button>
+  <p id="message">Hello, world!</p>
+
+  <script>
+    function changeText() {
+      document.getElementById("message").textContent = "You clicked the button 🎉";
+    }
+  </script>
+</body>
+</html>
